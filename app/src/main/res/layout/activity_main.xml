@@ -53,6 +53,13 @@
             android:scaleType="fitCenter"
             android:id="@+id/btn_kh"
             android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mx"
+            android:scaleType="fitCenter"
+            android:id="@+id/btn_es"
+            android:layout_weight="1"/>
 
     </LinearLayout>
 

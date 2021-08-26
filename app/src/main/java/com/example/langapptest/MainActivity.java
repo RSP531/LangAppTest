@@ -15,6 +15,8 @@ public class MainActivity extends AppCompat {
         ImageButton en = findViewById(R.id.btn_en);
         ImageButton kr = findViewById(R.id.btn_ko);
         ImageButton kh = findViewById(R.id.btn_kh);
+        ImageButton es = findViewById(R.id.btn_es);
+
         LanguageManager lang = new LanguageManager(this);
         en.setOnClickListener(view -> {
             lang.updateResource("en");
@@ -27,7 +29,10 @@ public class MainActivity extends AppCompat {
         kh.setOnClickListener(view -> {
             lang.updateResource("km");
             recreate();
-
+        });
+        es.setOnClickListener(view -> {
+            lang.updateResource("es");
+            recreate();
         });
 
         findViewById(R.id.btn_go).setOnClickListener(view ->{
