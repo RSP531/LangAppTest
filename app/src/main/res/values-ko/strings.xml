@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greet">Korean Language</string>
+    <string name="go">Go (but Korean)</string>
+    <string name="eat">Korean eat apple</string>
+</resources>
