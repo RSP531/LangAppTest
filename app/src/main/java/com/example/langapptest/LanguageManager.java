@@ -29,7 +29,7 @@ public class LanguageManager {
 
     public String getLang()
     {
-        return sharedPreferences.getString("lang","en");
+        return sharedPreferences.getString("lang","es");
     }
 
     public void setLang(String code)

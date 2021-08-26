@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="5"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
@@ -32,6 +32,14 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/toggle"
+            android:id="@+id/btn_toggle"
+            android:scaleType="fitCenter"
+            android:text="Toggle"
+            android:layout_weight="1"/>
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
