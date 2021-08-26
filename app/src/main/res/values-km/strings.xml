@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="greet">Khmer Language</string>
-    <string name="go">Go (but Khmer)</string>
-    <string name="eat">Khmer eat apple</string>
+    <string name="greet">សូ​ស្តី Cambodian Language</string>
+    <string name="go">ទៅ (but Cambodian)</string>
+    <string name="eat">Cambodian: ខ្ញុំញ៉ាំផ្លែប៉ោម</string>
 </resources>
