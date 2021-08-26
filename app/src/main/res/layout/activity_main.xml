@@ -35,19 +35,22 @@
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/eng"
             android:id="@+id/btn_en"
+            android:scaleType="fitCenter"
             android:layout_weight="1"/>
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/ko"
             android:id="@+id/btn_ko"
+            android:scaleType="fitCenter"
             android:layout_weight="1"/>
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/kh"
+            android:scaleType="fitCenter"
             android:id="@+id/btn_kh"
             android:layout_weight="1"/>
 
